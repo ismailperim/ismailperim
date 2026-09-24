@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0D10"/>
+      <stop offset="78%" stop-color="#0B0D10"/>
+      <stop offset="100%" stop-color="#10231C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="200" rx="16" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="999" height="199" rx="16" fill="none" stroke="#1E232C"/>
+  <!-- üst mono satır: marka + nabız -->
+  <circle cx="46" cy="52" r="6" fill="#34D399">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="62" y="57" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16" font-weight="700" fill="#E8EAED">perim</text>
+  <text x="128" y="57" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#98A2B3">~ İzmir, Türkiye</text>
+  <!-- hero -->
+  <text x="44" y="118" font-family="-apple-system,'Segoe UI',Roboto,sans-serif" font-size="34" font-weight="700" fill="#E8EAED" letter-spacing="-0.5">I build things that keep other things running.</text>
+  <!-- alt satır -->
+  <text x="46" y="158" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="14" fill="#98A2B3">devops by day <tspan fill="#34D399">·</tspan> indie apps by night <tspan fill="#34D399">·</tspan> self-hosted, ops-first oss</text>
+</svg>
