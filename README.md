@@ -21,7 +21,3 @@ iOS/macOS apps on the stores: **iotz** · **Upti** · **CertWarden** · **Fayn**
 #### Elsewhere
 
 [perim.net](https://perim.net) · [Medium (TR)](https://ismailperim.medium.com) · [LinkedIn](https://www.linkedin.com/in/ismailperim/)
-
-```
-● all systems operational — response_time: usually < 24h — tz: Europe/Istanbul
-```
